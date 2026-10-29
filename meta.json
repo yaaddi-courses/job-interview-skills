@@ -4,7 +4,7 @@
   "description": "How to act in a job interview from first handshake to follow-up: research, your stories, common and tough questions, phone and video interviews, body language, questions to ask, salary and offers.",
   "image": "cover.png",
   "file": "job-interview-skills.zip",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "tags": [
     "interview",
     "career",
@@ -18,6 +18,16 @@
       "version": "1.0.0",
       "date": "2026-10-02",
       "notes": "Initial release - 16 decks, 52 packs, 423 cards."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29",
+      "notes": "Removes the Wikipedia links from glossary terms that have a Learn more article; the article is now the single place to read more."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-29",
+      "notes": "Rewrites the Learn more articles in a warmer, teacher-to-student voice; no change to the content or the glossary."
     }
   ],
   "toc": [
