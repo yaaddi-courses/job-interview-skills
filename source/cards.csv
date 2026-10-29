@@ -1,0 +1,474 @@
+id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
+1,1,true_false,preview,2,A job listing tells you what to prepare.,,true,,,True. Read it closely.
+2,1,multiple_choice,main,,What is a job description?,"Duties, skills|Salary offer|Test score",0,,,"A job description lists a job's duties, required skills and qualifications. Required skills are must-haves; nice-to-have skills are a bonus."
+3,1,multiple_choice,exercise,2,Which is required?,Bonus skill|Must-have skill|Hobby,1,,,Required skills are must-haves for the role.
+4,1,true_false,exercise,2,Nice-to-have skills are optional.,,true,,,True. They help but are not essential.
+5,1,select_blank,exercise,2,Match your examples to the ___ skills.,random|hidden|required,2,,,Cover the must-haves first.
+6,1,true_false,exercise,2,Ignore the job description.,,false,,,False. It shows what they will ask.
+7,1,multiple_choice,exercise,2,Where do questions come from?,The listing|Luck|Your hobbies,0,,,Interviewers test the skills they list.
+8,1,select_blank,exercise,2,Highlight ___ skills in your answers.,unrelated|required|spare,1,,,Required skills matter most.
+9,1,true_false,preview,10,Interviewers expect you to know the company.,,true,,,True. Do your research.
+10,1,multiple_choice,main,,What should you research?,Office gossip|Parking fines|Company mission,2,,,"Learn the company's mission, products and customers, and recent news so you can explain why you want to work there."
+11,1,true_false,exercise,10,Recent news is worth knowing.,,true,,,True. It shows genuine interest.
+12,1,select_blank,exercise,10,Learn about products and ___.,customers|rivals' staff|weather,0,,,Know who the company serves.
+13,1,multiple_choice,exercise,10,Where to find the mission?,Rumours|Company website|Gossip,1,,,The About page states it.
+14,1,true_false,exercise,10,Research is optional.,,false,,,False. It sets strong candidates apart.
+15,1,multiple_choice,exercise,10,Why research?,Impress friends|Kill time|Show interest,2,,,It shows you care about the company.
+16,1,select_blank,exercise,10,Know the company's ___.,mission|lunch menu|weather,0,,,The mission explains its purpose.
+17,1,true_false,preview,18,Knowing your interviewer helps you connect.,,true,,,True. Look them up.
+18,1,multiple_choice,main,,What can you learn about interviewers?,Their salary|Their role|Their age,1,,,"Find each interviewer's role and background from their LinkedIn profile or the company site, then tailor your answers and questions."
+19,1,true_false,exercise,18,A LinkedIn profile shows background.,,true,,,True. Use it to prepare.
+20,1,select_blank,exercise,18,Check their ___ before the interview.,diet|car|role,2,,,Role helps you tailor answers.
+21,1,multiple_choice,exercise,18,Why check roles?,Tailor answers|Gossip|Flatter,0,,,A manager and a peer care about different things.
+22,1,true_false,exercise,18,A LinkedIn profile covers personal life.,,false,,,False. Stick to professional information.
+23,1,multiple_choice,exercise,18,A hiring manager cares about?,Hobbies|Results|Fashion,1,,,They want someone who delivers.
+24,1,select_blank,exercise,18,Tailor answers to the interviewer's ___.,mood|pet|role,2,,,Fit your examples to their concerns.
+25,2,true_false,preview,26,A simple structure keeps answers clear.,,true,,,True. Use STAR.
+26,2,multiple_choice,main,,What does the S in STAR mean?,Situation|Skill|Start,0,,,"The STAR method answers questions by describing the Situation, Task, Action and Result of a real example."
+27,2,multiple_choice,exercise,26,Which part is your effort?,Situation|Action|Result,1,,,Action is what you actually did.
+28,2,multiple_choice,exercise,26,Which part sets the scene?,Result|Action|Situation,2,,,Situation gives brief context.
+29,2,true_false,exercise,26,Results make an answer convincing.,,true,,,True. They show your impact.
+30,2,select_blank,exercise,26,End a STAR answer with the ___.,result|task|scene,0,,,Share the outcome and what you learned.
+31,2,multiple_choice,exercise,26,Which part states your goal?,Action|Task|Result,1,,,Task is what needed to be done.
+32,2,true_false,exercise,26,STAR uses made-up stories.,,false,,,False. Use real examples.
+33,2,multiple_choice,exercise,26,Which part is longest?,Situation|Task|Action,2,,,Spend most time on what you did.
+34,2,select_blank,exercise,26,STAR has ___ parts.,four|two|six,0,,,"Situation, Task, Action, Result."
+35,2,true_false,preview,36,A story bank saves time later.,,true,,,True. List your achievements.
+36,2,multiple_choice,main,,What is an achievement inventory?,Duty list|Win list|Job list,1,,,An achievement inventory lists your accomplishments so you can match stories to what the job needs.
+37,2,true_false,exercise,36,Match stories to the job.,,true,,,True. Relevant examples impress.
+38,2,select_blank,exercise,36,Prepare ___ stories in advance.,no|one|several,2,,,A few flexible stories cover many questions.
+39,2,multiple_choice,exercise,36,A good story shows?,Skill and impact|Excuses|Luck,0,,,It proves what you can do.
+40,2,true_false,exercise,36,One story fits every question.,,false,,,False. Prepare a variety.
+41,2,multiple_choice,exercise,36,Which story suits teamwork?,Solo hobby|Group project|A holiday,1,,,Pick the example that fits.
+42,2,select_blank,exercise,36,List ___ you are proud of.,mistakes|names|achievements,2,,,Your wins are story material.
+43,2,true_false,preview,44,Numbers make claims believable.,,true,,,True. Quantify results.
+44,2,multiple_choice,main,,Which is stronger?,Cut costs 20%|Saved money|Did well,0,,,"Specific examples with numbers prove impact. Quantify results with percentages, money, time or people."
+45,2,true_false,exercise,44,Specific examples beat generalities.,,true,,,True. Details sound credible.
+46,2,select_blank,exercise,44,Quantify your ___.,hobbies|results|excuses,1,,,Use numbers to show impact.
+47,2,multiple_choice,exercise,44,Which is specific?,Helped people|Led things|Trained 12 staff,2,,,A number makes it concrete.
+48,2,true_false,exercise,44,Never use numbers.,,false,,,False. Numbers are persuasive.
+49,2,multiple_choice,exercise,44,What can you quantify?,Time saved|Mood|Weather,0,,,"Time saved, sales, errors and customers all work."
+50,2,select_blank,exercise,44,Use ___ to prove your impact.,adjectives|numbers|rumours,1,,,Numbers are hard to dispute.
+51,3,true_false,preview,52,Preparation starts the day before.,,true,,,True. Remove surprises.
+52,3,multiple_choice,main,,What do you confirm?,Salary|Competitors|Time and place,2,,,"The day before, confirm the time and place, plan your route and prepare your documents."
+53,3,true_false,exercise,52,Plan your route ahead.,,true,,,True. Allow for delays.
+54,3,select_blank,exercise,52,Prepare your ___ the night before.,documents|debts|hobbies,0,,,Copies of your CV and ID may be needed.
+55,3,multiple_choice,exercise,52,Which is wise?,Wing it|Test the route|Sleep in,1,,,Know travel time in advance.
+56,3,true_false,exercise,52,Confirming time and place is unnecessary.,,false,,,False. It avoids mix-ups.
+57,3,multiple_choice,exercise,52,Prepare spare ___.,Snacks|Gifts|CV copies,2,,,Extra copies help panels.
+58,3,select_blank,exercise,52,Plan the ___ to avoid lateness.,route|menu|music,0,,,Know how long it takes.
+59,3,true_false,preview,60,First impressions form in seconds.,,true,,,True. Dress thoughtfully.
+60,3,multiple_choice,main,,How should you dress?,Casual|One level up|Costume,1,,,"Research the dress code, then dress one level above it. Neat and comfortable is better than flashy."
+61,3,true_false,exercise,60,Research the dress code.,,true,,,True. Match the company culture.
+62,3,select_blank,exercise,60,Dress one ___ up.,size|colour|level,2,,,Slightly more formal than daily wear.
+63,3,multiple_choice,exercise,60,Which is safe?,Neat and clean|Wrinkled|Strong perfume,0,,,Tidy clothes show care.
+64,3,true_false,exercise,60,Any dress goes at interviews.,,false,,,False. Appearance still matters.
+65,3,multiple_choice,exercise,60,Where to learn the dress code?,A guess|Website photos|Gossip,1,,,Company photos hint at style.
+66,3,select_blank,exercise,60,Choose ___ clothes.,tight|new|comfortable,2,,,Comfort helps confidence.
+67,3,true_false,preview,68,Punctuality shows respect.,,true,,,True. Aim to arrive early.
+68,3,multiple_choice,main,,How early should you arrive?,10-15 minutes|1 hour|On time,0,,,"Arrive ten to fifteen minutes early. Be polite to everyone, since receptionists may share their impressions."
+69,3,true_false,exercise,68,Arriving an hour early is ideal.,,false,,,False. Too early can inconvenience hosts.
+70,3,select_blank,exercise,68,Be polite to ___.,managers|everyone|no one,1,,,Everyone you meet forms an impression.
+71,3,multiple_choice,exercise,68,"If delayed, you should ___.",Stay silent|Skip|Call ahead,2,,,Let them know as soon as you can.
+72,3,true_false,exercise,68,Staff may share impressions.,,true,,,True. Treat all staff well.
+73,3,multiple_choice,exercise,68,A good arrival is ___.,Early|Late|Rushed,0,,,A small buffer reduces stress.
+74,3,select_blank,exercise,68,Arrive about ten ___ early.,hours|minutes|days,1,,,Ten to fifteen minutes is typical.
+75,3,true_false,preview,76,Preparation builds confidence.,,true,,,True. Review the basics.
+76,3,multiple_choice,main,,What does a job description list?,"Salary offer|Test score|Duties, skills",2,,,"It lists duties, required skills and qualifications."
+77,3,multiple_choice,exercise,76,What does STAR end with?,Result|Task|Scene,0,,,Result: the outcome you achieved.
+78,3,true_false,exercise,76,Numbers make answers stronger.,,true,,,True. Quantify results.
+79,3,select_blank,exercise,76,Research the company's ___.,menu|mission|weather,1,,,Know why it exists.
+80,3,multiple_choice,exercise,76,How early do you arrive?,1 hour|On time|10-15 minutes,2,,,Ten to fifteen minutes early.
+81,3,true_false,exercise,76,Dress code research is optional.,,false,,,False. It helps you dress right.
+82,3,multiple_choice,exercise,76,Which is quantified?,Cut errors 30%|Fewer errors|Better work,0,,,A percentage is specific.
+83,3,match_pairs,exercise,76,"Match each term, round 1.",Job description↔Role requirements|LinkedIn↔Professional network|STAR method↔Structured story,,,,Each term goes with its short meaning.
+84,4,true_false,preview,85,A short call often comes first.,,true,,,True. It is the phone screen.
+85,4,multiple_choice,main,,What is a phone screen?,Final round|Brief call|Job offer,1,,,"A phone screen is a short first call, often with a recruiter, to check basic fit before a full interview."
+86,4,true_false,exercise,85,A phone screen can end your chances.,,true,,,True. Many candidates are filtered out here.
+87,4,select_blank,exercise,85,A phone ___ is a short first call.,offer|test|screen,2,,,It checks basic fit.
+88,4,multiple_choice,exercise,85,Who calls you?,Recruiter|CEO|Customer,0,,,Recruiters usually make the first call.
+89,4,true_false,exercise,85,Phone screens need no preparation.,,false,,,False. Prepare as for any interview.
+90,4,multiple_choice,exercise,85,Keep phone screen answers ___.,Endless|Concise|Vague,1,,,"Short, clear answers work best."
+91,4,select_blank,exercise,85,Find a ___ place to take the call.,busy|moving|quiet,2,,,Avoid background noise.
+92,4,true_false,preview,93,Video interviews need a good setup.,,true,,,True. Check it beforehand.
+93,4,multiple_choice,main,,Where should the camera be?,Eye level|Below chin|Ceiling,0,,,"Place the camera at eye level with good lighting and a quiet, tidy background."
+94,4,true_false,exercise,93,Camera light from behind is flattering.,,false,,,False. Light your face from the front.
+95,4,select_blank,exercise,93,Choose a ___ background.,messy|tidy|moving,1,,,A neat background looks professional.
+96,4,multiple_choice,exercise,93,Where does light come from?,Behind|Below|In front,2,,,Front light shows your face.
+97,4,true_false,exercise,93,A quiet room matters.,,true,,,True. Noise distracts.
+98,4,multiple_choice,exercise,93,Test your setup ___.,Beforehand|During|Never,0,,,"Check camera, sound and lighting early."
+99,4,select_blank,exercise,93,Put the camera at eye ___.,line|level|size,1,,,Eye level looks natural.
+100,4,true_false,preview,101,Staying engaged on video takes effort.,,true,,,True. Small habits help.
+101,4,multiple_choice,main,,Where should you look?,Your face|The ceiling|The camera,2,,,Look at the camera to seem engaged. Test your tech first and have notes ready.
+102,4,true_false,exercise,101,Test your tech before the call.,,true,,,True. Check audio and software.
+103,4,select_blank,exercise,101,Keep brief ___ ready.,notes|snacks|gifts,0,,,A few bullets help.
+104,4,multiple_choice,exercise,101,Which helps camera eye contact?,Watch self|The lens|Read screen,1,,,The lens feels like eye contact.
+105,4,true_false,exercise,101,Reading a script beats brief notes.,,false,,,False. Notes should be brief.
+106,4,multiple_choice,exercise,101,Close ___ apps.,All camera|Only chat|Other,2,,,Avoid notifications.
+107,4,select_blank,exercise,101,Test your ___ before the call.,tech|voice|lunch,0,,,Fix problems beforehand.
+108,5,true_false,preview,109,Many questions ask about the past.,,true,,,True. They are behavioral.
+109,5,multiple_choice,main,,What is a behavioral question?,Made-up scenario|Past example|Trick riddle,1,,,"A behavioral question asks for a real past example, such as Tell me about a time you led a team."
+110,5,true_false,exercise,109,Behavioral questions ask about the past.,,true,,,True. Past behavior predicts future behavior.
+111,5,multiple_choice,exercise,109,Which method suits behavioral questions?,Guesswork|Memorizing|STAR,2,,,STAR structures your story.
+112,5,multiple_choice,exercise,109,Which is behavioral?,Past example|Hypothetical|Motivation,0,,,It asks for a real example.
+113,5,true_false,exercise,109,Behavioral answers should be hypothetical.,,false,,,False. Use real examples.
+114,5,multiple_choice,exercise,109,Prepare ___ real stories.,Zero|Several|Invented,1,,,A few stories cover many questions.
+115,5,select_blank,exercise,109,'Tell me about a ___' starts many.,dream|joke|time,2,,,That phrase signals a behavioral question.
+116,5,true_false,preview,117,Some questions are made-up scenarios.,,true,,,True. They are situational.
+117,5,multiple_choice,main,,What is a situational question?,Hypothetical|What you did|History,0,,,A situational question asks what you would do in a made-up work situation. Explain your reasoning step by step.
+118,5,true_false,exercise,117,Situational questions are hypothetical.,,true,,,True. They test your thinking.
+119,5,select_blank,exercise,117,Explain your ___ as you answer.,salary|reasoning|age,1,,,Show how you decide.
+120,5,multiple_choice,exercise,117,Which is situational?,Past example|Self-pitch|Hypothetical,2,,,It presents a hypothetical.
+121,5,true_false,exercise,117,Use a real past event for hypothetical questions.,,false,,,False. That fits behavioral questions.
+122,5,multiple_choice,exercise,117,Explain your ___.,Thinking|Luck|Fear,0,,,Explain how you reason.
+123,5,select_blank,exercise,117,They ask 'what would you ___?',pay|do|buy,1,,,They test judgment.
+124,5,true_false,preview,125,Answers should be about two minutes.,,true,,,True. Lead with the result.
+125,5,multiple_choice,main,,How long should answers be?,30 seconds|10 minutes|2 minutes,2,,,Aim for a two-minute answer and lead with the result so the interviewer hears the point first.
+126,5,true_false,exercise,125,Lead with the result.,,true,,,True. It hooks attention.
+127,5,select_blank,exercise,125,Aim for a ___-minute answer.,two|ten|zero,0,,,Two minutes is usually right.
+128,5,multiple_choice,exercise,125,Which is too long?,2 minutes|10 minutes|90 seconds,1,,,Rambling loses the listener.
+129,5,true_false,exercise,125,Longer answers are always better.,,false,,,False. Concise answers win.
+130,5,multiple_choice,exercise,125,Start with the ___.,Background|Apology|Result,2,,,State the outcome first.
+131,5,select_blank,exercise,125,Practise to keep answers ___.,short|long|silent,0,,,Timing improves with practice.
+132,6,true_false,preview,133,Sometimes several people interview you at once.,,true,,,True. That is a panel.
+133,6,multiple_choice,main,,What is a panel interview?,One recruiter|Several interviewers|Group candidates,1,,,"A panel interview has several interviewers questioning you at the same time. Address everyone, not just the person who asked."
+134,6,true_false,exercise,133,Address only the questioner.,,false,,,False. Make eye contact with the whole panel.
+135,6,select_blank,exercise,133,Make eye contact with the ___ panel.,first|last|whole,2,,,Include everyone.
+136,6,multiple_choice,exercise,133,Who do you look at?,Everyone|One person|The floor,0,,,Rotate your attention.
+137,6,true_false,exercise,133,Learn each panel member's name.,,true,,,True. Use names respectfully.
+138,6,multiple_choice,exercise,133,A panel has ___ interviewers.,One|Several|None,1,,,Multiple people question you.
+139,6,select_blank,exercise,133,Share eye contact with the ___.,wall|floor|group,2,,,Include all panelists.
+140,6,true_false,preview,141,Some interviews test your skills directly.,,true,,,True. They are technical.
+141,6,multiple_choice,main,,What does 'think aloud' mean?,Explain reasoning|Stay silent|Guess fast,0,,,"In a technical interview you work through problems while explaining your reasoning out loud, so interviewers can follow your thinking."
+142,6,true_false,exercise,141,Interviewers want to hear reasoning.,,true,,,True. Process matters as much as answers.
+143,6,select_blank,exercise,141,Explain your ___ out loud.,hopes|thinking|plans,1,,,Narrate how you solve it.
+144,6,multiple_choice,exercise,141,"If stuck, you ___.",Freeze|Give up|Explain attempts,2,,,Share your approach.
+145,6,true_false,exercise,141,Silence while solving is best.,,false,,,False. Narrate your approach.
+146,6,multiple_choice,exercise,141,Technical interviews test ___.,Skills|Hobbies|Appearance,0,,,They check job-related skills.
+147,6,select_blank,exercise,141,Clarify the technical ___ first.,salary|problem|dress,1,,,Ask questions before solving.
+148,6,true_false,preview,149,Some interviews are business puzzles.,,true,,,True. They are case interviews.
+149,6,multiple_choice,main,,What is a case interview?,Legal trial|Phone chat|Business puzzle,2,,,A case interview has you solve a business problem out loud to show how you think. Structure your approach before diving in.
+150,6,true_false,exercise,149,Structure your approach first.,,true,,,True. A clear framework impresses.
+151,6,select_blank,exercise,149,Explain your ___ in a case.,reasoning|pay|age,0,,,Show your thinking.
+152,6,multiple_choice,exercise,149,Case interviews test ___.,Memory|Thinking|Luck,1,,,They assess problem solving.
+153,6,true_false,exercise,149,Jump into the case answer immediately.,,false,,,False. Structure first.
+154,6,multiple_choice,exercise,149,Ask ___ questions about the case.,Random|Rude|Clarifying,2,,,Clarify the problem before solving.
+155,6,select_blank,exercise,149,Case interviews are common in ___.,consulting|farming|sport,0,,,Consulting firms use them often.
+156,6,true_false,preview,157,Different interview types need different prep.,,true,,,True. Review the formats.
+157,6,multiple_choice,main,,Which describes a phone screen?,Final round|Brief call|Job offer,1,,,A short call to check basic fit.
+158,6,multiple_choice,exercise,157,Which asks about the past?,Situational|Case|Behavioral,2,,,Behavioral questions use past examples.
+159,6,true_false,exercise,157,Situational questions use made-up scenarios.,,true,,,True. They ask what you would do.
+160,6,select_blank,exercise,157,A ___ interview has several questioners.,panel|phone|case,0,,,Panels have multiple interviewers.
+161,6,multiple_choice,exercise,157,A case interview is ___.,Phone chat|Business puzzle|Recruiter,1,,,You solve a problem out loud.
+162,6,true_false,exercise,157,Think aloud in technical interviews.,,true,,,True. Reasoning matters.
+163,6,multiple_choice,exercise,157,Which is first usually?,Offer|Panel|Phone screen,2,,,It filters candidates early.
+164,6,match_pairs,exercise,157,"Match each term, round 1.",Phone screen↔Brief first call|Behavioral question↔Past example|Situational question↔Hypothetical scenario,,,,Each term goes with its short meaning.
+165,7,true_false,preview,166,This question opens most interviews.,,true,,,True. Prepare a pitch.
+166,7,multiple_choice,main,,What structure works best?,"Present, past, future|Life story|Hobbies",0,,,"Use present, past, future: what you do now, how you got there, and what you want next. This is your elevator pitch."
+167,7,multiple_choice,exercise,166,Start with your ___.,Childhood|Present|Hobbies,1,,,Begin with your current role.
+168,7,true_false,exercise,166,Keep your pitch under two minutes.,,true,,,True. Short is memorable.
+169,7,select_blank,exercise,166,An elevator ___ is a short summary.,ride|button|pitch,2,,,It fits an elevator ride.
+170,7,multiple_choice,exercise,166,The future part says ___.,Why here|Your age|Your fears,0,,,Link your goals to the role.
+171,7,true_false,exercise,166,Recite your whole life story.,,false,,,False. Be relevant and brief.
+172,7,select_blank,exercise,166,"Present, ___, future.",pest|past|pass,1,,,That is the structure.
+173,7,true_false,preview,174,Edit your pitch for relevance.,,true,,,True. Leave things out.
+174,7,multiple_choice,main,,What should you leave out?,Key skills|Achievements|Personal details,2,,,"Leave out personal details, unrelated history and long stories. Keep it relevant to the job."
+175,7,true_false,exercise,174,Personal details like marital status belong.,,false,,,False. Keep it professional.
+176,7,select_blank,exercise,174,Skip ___ history.,unrelated|relevant|recent,0,,,Mention only what supports the role.
+177,7,multiple_choice,exercise,174,Which is relevant?,Pets|Skills for the job|Weekend plans,1,,,Match your pitch to the role.
+178,7,true_false,exercise,174,Long stories lose attention.,,true,,,True. Be concise.
+179,7,multiple_choice,exercise,174,Keep it ___.,Long|Vague|Short,2,,,Short and focused wins.
+180,7,select_blank,exercise,174,Share only ___ details.,relevant|private|random,0,,,Relevance keeps it tight.
+181,8,true_false,preview,182,Choose strengths that fit the job.,,true,,,True. Then prove them.
+182,8,multiple_choice,main,,Which strength should you pick?,Random one|Relevant one|Funniest,1,,,Pick strengths relevant to the job and prove each with a short example.
+183,8,true_false,exercise,182,Back strengths with examples.,,true,,,True. Evidence beats claims.
+184,8,select_blank,exercise,182,Give an ___ for each strength.,excuse|apology|example,2,,,Show it in action.
+185,8,multiple_choice,exercise,182,Stronger strength?,Led a project|Hard worker|Nice person,0,,,A concrete example shows the strength.
+186,8,true_false,exercise,182,List ten strengths.,,false,,,False. Choose two or three.
+187,8,multiple_choice,exercise,182,Pick strengths that ___.,Sound fancy|Fit role|Are rare,1,,,Relevance matters.
+188,8,select_blank,exercise,182,Prove it with a ___.,joke|gift|story,2,,,Stories are memorable.
+189,8,true_false,preview,190,Honesty about weaknesses builds trust.,,true,,,True. Show improvement.
+190,8,multiple_choice,main,,What makes a good weakness answer?,"Real, improving|Fake strength|No weakness",0,,,"Name a real weakness that is not essential to the job, and explain how you are improving it."
+191,8,true_false,exercise,190,Show how you are improving.,,true,,,True. It proves self-awareness.
+192,8,select_blank,exercise,190,Choose a ___ weakness.,fake|real|fatal,1,,,Be honest.
+193,8,multiple_choice,exercise,190,Which weakness is wise?,Critical skill|Anything|Not job-critical,2,,,Avoid weaknesses core to the role.
+194,8,true_false,exercise,190,Say you have no weaknesses.,,false,,,False. It sounds dishonest.
+195,8,multiple_choice,exercise,190,Add what you are ___.,Doing about it|Hiding|Blaming,0,,,Show action.
+196,8,select_blank,exercise,190,Describe how you are ___.,hiding|improving|ignoring,1,,,Growth matters.
+197,8,true_false,preview,198,Some answers sound rehearsed or evasive.,,true,,,True. Avoid clichés.
+198,8,multiple_choice,main,,Which answer often fails?,Real example|Honest gap|Perfectionist,2,,,Clichés like I'm a perfectionist sound evasive. Claiming no weaknesses sounds dishonest.
+199,8,true_false,exercise,198,Perfectionist answers sound genuine.,,false,,,False. Interviewers hear them often.
+200,8,select_blank,exercise,198,Avoid claiming no ___.,weaknesses|strengths|goals,0,,,Everyone has weaknesses.
+201,8,multiple_choice,exercise,198,A cliché sounds ___.,Honest|Rehearsed|Fresh,1,,,It feels like a dodge.
+202,8,true_false,exercise,198,Candor about weaknesses earns trust.,,true,,,True. Be sincere.
+203,8,multiple_choice,exercise,198,Better answer?,I work too hard|None|Real weakness,2,,,Real and improving.
+204,8,select_blank,exercise,198,Be ___ about weaknesses.,honest|vague|defensive,0,,,Sincerity lands better.
+205,9,true_false,preview,206,They want to hear your motivation.,,true,,,True. Answer with fit.
+206,9,multiple_choice,main,,What should you cover?,Salary only|Fit|Commute,1,,,"Cover role fit, company fit and growth: how the role matches your skills and where you will grow."
+207,9,true_false,exercise,206,Mention growth opportunities.,,true,,,True. It shows ambition.
+208,9,select_blank,exercise,206,Link the role to your ___.,pay|age|skills,2,,,Show fit.
+209,9,multiple_choice,exercise,206,Which is persuasive?,Specific reasons|Any job|Money only,0,,,Concrete reasons stand out.
+210,9,true_false,exercise,206,Say you want any job.,,false,,,False. It shows no interest.
+211,9,multiple_choice,exercise,206,Mention the company's ___.,Rivals|Mission|Gossip,1,,,Show you researched.
+212,9,select_blank,exercise,206,Show how you will ___ to the role.,relax|leave|contribute,2,,,Employers want value.
+213,9,true_false,preview,214,Speak about past jobs with respect.,,true,,,True. Stay positive.
+214,9,multiple_choice,main,,Why are you leaving?,Seeking growth|Boss complaints|Bored,0,,,"Stay positive and focus on what you seek, such as growth or new challenges, rather than complaints."
+215,9,true_false,exercise,214,Criticizing your boss helps.,,false,,,False. It raises doubts about you.
+216,9,select_blank,exercise,214,Focus on what you are ___.,avoiding|seeking|hiding,1,,,"Look forward, not back."
+217,9,multiple_choice,exercise,214,A good reason?,Hated colleagues|Low pay only|New challenges,2,,,Positive reasons sound constructive.
+218,9,true_false,exercise,214,Speak badly of employers.,,false,,,False. It reflects on you.
+219,9,multiple_choice,exercise,214,Keep your tone ___.,Positive|Bitter|Angry,0,,,Stay professional.
+220,9,select_blank,exercise,214,"Talk about the ___, not the past.",drama|future|gossip,1,,,Show what you want next.
+221,9,true_false,preview,222,Interviewers check for shared values.,,true,,,True. That is culture fit.
+222,9,multiple_choice,main,,What is culture fit?,Same hobbies|Same age|Matching values,2,,,Culture fit is how well your values and working style match those of the company and team. Show shared values with examples.
+223,9,true_false,exercise,222,Shared values matter to employers.,,true,,,True. They affect teamwork.
+224,9,select_blank,exercise,222,Show shared ___.,values|hobbies|friends,0,,,Link your values to theirs.
+225,9,multiple_choice,exercise,222,Learn their culture from?,"Guessing|Website, staff|Rumours",1,,,The careers page and employees reveal it.
+226,9,true_false,exercise,222,Culture fit means being identical.,,false,,,False. It means aligned values and styles.
+227,9,multiple_choice,exercise,222,Which shows fit?,Flattery|Silence|Matching examples,2,,,Real examples are convincing.
+228,9,select_blank,exercise,222,Culture fit is about ___ style.,working|dressing|cooking,0,,,How you work with others.
+229,10,true_false,preview,230,Gaps happen and can be explained.,,true,,,True. Be honest and brief.
+230,10,multiple_choice,main,,How do you explain a gap?,"Hide it|Honestly, briefly|Invent story",1,,,"Explain an employment gap honestly and briefly, then focus on skills gained or your readiness to work."
+231,10,true_false,exercise,230,Lie about an employment gap.,,false,,,False. Dishonesty can end the process.
+232,10,select_blank,exercise,230,Keep the explanation ___.,long|angry|brief,2,,,Move on to your strengths.
+233,10,multiple_choice,exercise,230,Mention what you ___ during the gap.,Learned|Missed|Lost,0,,,Show growth during the gap.
+234,10,true_false,exercise,230,Gaps are common.,,true,,,"True. Reasons include study, caring and health."
+235,10,multiple_choice,exercise,230,End on ___.,Apology|Readiness|Complaint,1,,,Show you are ready to work.
+236,10,select_blank,exercise,230,Be ___ about the gap.,vague|defensive|honest,2,,,Honesty builds trust.
+237,10,true_false,preview,238,Everyone fails sometimes.,,true,,,True. Show what you learned.
+238,10,multiple_choice,main,,What matters most in a failure story?,Lessons learned|Blame|Excuses,0,,,Own the mistake and explain what you learned and changed afterward.
+239,10,true_false,exercise,238,Blame others in your story.,,false,,,False. Own your part.
+240,10,select_blank,exercise,238,Own the ___.,credit|mistake|blame,1,,,Take responsibility.
+241,10,multiple_choice,exercise,238,End the story with ___.,An excuse|A joke|A lesson,2,,,Show growth.
+242,10,true_false,exercise,238,Choose a harmless failure.,,false,,,False. Pick a real one with a lesson.
+243,10,multiple_choice,exercise,238,A good failure is ___.,"Real, learned from|Fake|Fatal",0,,,Genuine and instructive.
+244,10,select_blank,exercise,238,Explain what you ___ afterward.,forgot|changed|hid,1,,,Show the outcome.
+245,10,true_false,preview,246,Disagreements show how you work with others.,,true,,,True. Stay calm.
+246,10,multiple_choice,main,,How do you describe a conflict?,"Emotional|Blaming|Calm, factual",2,,,"Describe a conflict calmly and factually, then explain the resolution."
+247,10,true_false,exercise,246,Blaming the colleague describes conflict well.,,false,,,False. Stay professional.
+248,10,select_blank,exercise,246,Focus on the ___.,resolution|drama|blame,0,,,Show how it ended.
+249,10,multiple_choice,exercise,246,A good conflict outcome is ___.,Avoided|Resolved|Won,1,,,Show constructive handling.
+250,10,true_false,exercise,246,Describe both viewpoints.,,true,,,True. It shows fairness.
+251,10,multiple_choice,exercise,246,Stay ___ describing conflict.,Angry|Sarcastic|Calm,2,,,Stay objective.
+252,10,select_blank,exercise,246,Show how you ___ the issue.,resolved|ignored|caused,0,,,Employers want problem solvers.
+253,10,true_false,preview,254,Answering well takes preparation.,,true,,,True. Review the key ideas.
+254,10,multiple_choice,main,,What is an elevator pitch?,Long story|Short summary|Salary ask,1,,,"A short, clear summary of who you are."
+255,10,multiple_choice,exercise,254,What is culture fit?,Same age|Same pay|Matching values,2,,,Your values and style match theirs.
+256,10,true_false,exercise,254,A good weakness is real and improving.,,true,,,True. Show growth.
+257,10,select_blank,exercise,254,Be honest and ___ about gaps.,brief|long|angry,0,,,State it and move on.
+258,10,multiple_choice,exercise,254,Which makes answers convincing?,Adjectives|Numbers|Luck,1,,,Quantified results are credible.
+259,10,true_false,exercise,254,Blame others for failures.,,false,,,False. Own your part.
+260,10,multiple_choice,exercise,254,Best pitch structure?,"Childhood first|Hobbies|Present, past, future",2,,,It keeps the answer relevant.
+261,10,match_pairs,exercise,254,"Match each term, round 1.",Panel interview↔Several interviewers|Case interview↔Business puzzle|Elevator pitch↔Short self-summary|Culture fit↔Matching values,,,,Each term goes with its short meaning.
+262,11,true_false,preview,263,Your body language speaks first.,,true,,,True. It signals confidence.
+263,11,multiple_choice,main,,How should a handshake be?,"Firm, brief|Limp|Crushing",0,,,"A firm, brief handshake with a smile shows confidence. Keep steady eye contact and good posture: sit upright."
+264,11,true_false,exercise,263,Steady eye contact builds trust.,,true,,,"True. Don't stare, though."
+265,11,select_blank,exercise,263,Sit ___ with open posture.,slouched|upright|twisted,1,,,Upright posture looks confident.
+266,11,multiple_choice,exercise,263,Which posture is better?,Crossed arms|Hunched|Open,2,,,Open posture looks welcoming.
+267,11,true_false,exercise,263,Avoid eye contact.,,false,,,False. It can seem evasive.
+268,11,multiple_choice,exercise,263,A weak handshake suggests ___.,Low confidence|Strength|Respect,0,,,Make it firm.
+269,11,select_blank,exercise,263,Smile and make ___ contact.,hand|eye|phone,1,,,Warmth helps connection.
+270,11,true_false,preview,271,How you speak affects how you are heard.,,true,,,True. Slow down.
+271,11,multiple_choice,main,,What pace works best?,Rapid|Slurred|Steady,2,,,"Speak at a steady pace with clarity, and avoid filler words like um: pause instead."
+272,11,true_false,exercise,271,Pausing beats filler like 'um'.,,true,,,True. Silence looks confident.
+273,11,select_blank,exercise,271,Avoid ___ words.,filler|key|plain,0,,,Um and like weaken answers.
+274,11,multiple_choice,exercise,271,Which is clearer?,Jargon|Plain words|Mumbling,1,,,Clear language is easy to follow.
+275,11,true_false,exercise,271,A rapid pace shows confidence.,,false,,,False. It loses listeners.
+276,11,multiple_choice,exercise,271,Nerves often make you ___.,Slow down|Sing|Speed up,2,,,Consciously slow down.
+277,11,select_blank,exercise,271,Speak ___ and clearly.,slowly|loudly|quietly,0,,,Slower is clearer.
+278,11,true_false,preview,279,Listening is part of interviewing.,,true,,,True. Show you hear them.
+279,11,multiple_choice,main,,What is active listening?,Planning replies|Full attention|Looking away,1,,,Active listening means giving the speaker your full attention and showing you understand. Pause before answering.
+280,11,true_false,exercise,279,Pausing before answering is fine.,,true,,,True. It shows thoughtfulness.
+281,11,select_blank,exercise,279,Pause before you ___.,arrive|leave|answer,2,,,A pause lets you think.
+282,11,multiple_choice,exercise,279,Active nodding shows ___.,Understanding|Boredom|Anger,0,,,It signals engagement.
+283,11,true_false,exercise,279,Interrupting shows active listening.,,false,,,False. It seems rude.
+284,11,multiple_choice,exercise,279,Active listening hears the ___.,First word|Whole question|Last word,1,,,Answer what was asked.
+285,11,select_blank,exercise,279,Show you ___ what they said.,forgot|ignored|heard,2,,,Echo key points.
+286,12,true_false,preview,287,Practice makes the real thing easier.,,true,,,True. Run a mock interview.
+287,12,multiple_choice,main,,What is a mock interview?,Practice interview|Real interview|Job offer,0,,,"A mock interview is a practice interview with a friend, coach or recording so the real one feels familiar. Practise aloud and use slow breathing."
+288,12,true_false,exercise,287,Practising aloud helps.,,true,,,True. Your mouth learns the words.
+289,12,select_blank,exercise,287,Slow breathing ___ nerves.,raises|calms|hides,1,,,Slow breathing calms your body.
+290,12,multiple_choice,exercise,287,Who can run a mock?,"Rivals|Strangers|Friend, coach",2,,,Anyone who gives honest feedback.
+291,12,true_false,exercise,287,Record yourself in a mock interview.,,true,,,True. You can spot habits.
+292,12,multiple_choice,exercise,287,Practise ___.,Aloud|Silently|Never,0,,,Spoken practice beats silent reading.
+293,12,select_blank,exercise,287,A mock interview is ___ practice.,silent|realistic|random,1,,,It simulates the real thing.
+294,12,true_false,preview,295,Blank moments happen to everyone.,,true,,,True. Recover calmly.
+295,12,multiple_choice,main,,If your mind blanks?,Panic|Walk out|Take a breath,2,,,"Take a breath, ask the interviewer to repeat or rephrase, and collect your thoughts."
+296,12,true_false,exercise,295,Asking to repeat is acceptable.,,true,,,True. It buys thinking time.
+297,12,select_blank,exercise,295,Ask to ___ the question.,repeat|skip|end,0,,,Repeating gives you time.
+298,12,multiple_choice,exercise,295,Which helps when your mind blanks?,Rushing|Water sip|Silence forever,1,,,A sip buys a few seconds.
+299,12,true_false,exercise,295,Panic helps you recover.,,false,,,False. Calm helps.
+300,12,multiple_choice,exercise,295,"Take a breath, then ___.",Apologize|Leave|Answer,2,,,Collect your thoughts.
+301,12,select_blank,exercise,295,A short ___ lets you collect thoughts.,pause|joke|story,0,,,Silence looks thoughtful.
+302,12,true_false,preview,303,Some mistakes cost job offers.,,true,,,True. Avoid the big ones.
+303,12,multiple_choice,main,,Which mistake loses offers?,Preparing|Being late|Smiling,1,,,"Being late, speaking badly of employers and not asking questions are common mistakes."
+304,12,true_false,exercise,303,Not asking questions is fine.,,false,,,False. It signals low interest.
+305,12,select_blank,exercise,303,Never criticize past ___.,pets|shoes|employers,2,,,It reflects on you.
+306,12,multiple_choice,exercise,303,Which common mistake hurts?,Phone ringing|Preparation|Eye contact,0,,,Silence your phone.
+307,12,true_false,exercise,303,Being late is forgiven.,,false,,,False. It looks careless.
+308,12,multiple_choice,exercise,303,Arrive ___.,Late|Early|Never,1,,,Punctuality matters.
+309,12,select_blank,exercise,303,Avoid mistakes: turn off your ___.,voice|mind|phone,2,,,Avoid interruptions.
+310,13,true_false,preview,311,The interview goes both ways.,,true,,,True. Ask questions.
+311,13,multiple_choice,main,,Why ask questions?,Show interest|Fill time|Test them,0,,,Questions show interest and let you check whether the job fits you.
+312,13,true_false,exercise,311,Having no questions looks uninterested.,,true,,,True. Prepare a few.
+313,13,select_blank,exercise,311,Check the job ___ you.,hurts|fits|pays,1,,,You are evaluating them too.
+314,13,multiple_choice,exercise,311,Prepare ___ questions.,Zero|Fifty|Several,2,,,Three to five is plenty.
+315,13,true_false,exercise,311,Asking no questions is wise.,,false,,,False. It signals low interest.
+316,13,multiple_choice,exercise,311,Questions show ___.,Curiosity|Doubt|Fear,0,,,They show engagement.
+317,13,select_blank,exercise,311,"Ask, don't just ___.",leave|answer|wait,1,,,Make it a conversation.
+318,13,true_false,preview,319,Good questions show you think ahead.,,true,,,True. Ask about the work.
+319,13,multiple_choice,main,,A good question to ask?,Holiday days|Salary first|Day-to-day work,2,,,"Ask about daily responsibilities, what success looks like in the first year, and the team and growth opportunities."
+320,13,multiple_choice,exercise,319,Which shows ambition?,Growth paths|Lunch times|Dress down,0,,,Growth questions show ambition.
+321,13,true_false,exercise,319,Ask what success looks like.,,true,,,True. It shows you aim high.
+322,13,select_blank,exercise,319,Ask about the ___.,weather|team|view,1,,,You will work with them.
+323,13,true_false,exercise,319,Ask about vacations first.,,false,,,False. Save benefits for later.
+324,13,multiple_choice,exercise,319,A good question is ___.,Closed|Rude|Open,2,,,Open questions start discussion.
+325,13,select_blank,exercise,319,Ask what success looks like in year ___.,one|ten|zero,0,,,It shows you plan ahead.
+326,13,true_false,preview,327,Some questions are better saved.,,true,,,True. Time them well.
+327,13,multiple_choice,main,,Which should wait?,Role details|Pay details|Team size,1,,,"Avoid salary too soon, and avoid questions answered online by a quick website search."
+328,13,true_false,exercise,327,Ask what is on the website.,,false,,,False. It shows poor research.
+329,13,select_blank,exercise,327,Research online before you ___.,quit|dress|ask,2,,,Know the basics first.
+330,13,multiple_choice,exercise,327,Salary questions come ___.,Later|First|Never,0,,,Wait for the right moment.
+331,13,true_false,exercise,327,Early salary talk is risky.,,true,,,True. It can seem pay-first.
+332,13,multiple_choice,exercise,327,Avoid ___ questions.,Thoughtful|Easy-to-find|Role,1,,,Do your homework.
+333,13,select_blank,exercise,327,Ask ___ questions.,obvious|rude|thoughtful,2,,,Make them count.
+334,13,true_false,preview,335,The conversation is a two-way exchange.,,true,,,True. Review the key ideas.
+335,13,multiple_choice,main,,What does eye contact show?,Confidence|Boredom|Anger,0,,,Steady eye contact signals confidence.
+336,13,multiple_choice,exercise,335,What does active listening need?,Planning replies|Full attention|Phone,1,,,Give the speaker full attention.
+337,13,true_false,exercise,335,A mock interview is practice.,,true,,,True. It prepares you.
+338,13,select_blank,exercise,335,Asking questions shows ___.,doubt|fear|interest,2,,,It signals engagement.
+339,13,multiple_choice,exercise,335,Which question is good?,Daily work|Salary first|Holidays,0,,,Ask about daily responsibilities.
+340,13,true_false,exercise,335,Avoid eye contact when nervous.,,false,,,False. Keep steady eye contact.
+341,13,multiple_choice,exercise,335,Pause before ___.,Greeting|Answering|Leaving,1,,,A pause shows thought.
+342,13,match_pairs,exercise,335,"Match each term, round 1.",Active listening↔Full attention|Mock interview↔Practice interview,,,,Each term goes with its short meaning.
+343,14,true_false,preview,344,End strongly.,,true,,,True. Restate your interest.
+344,14,multiple_choice,main,,How do you close?,Stay silent|Ask pay|Restate interest,2,,,"Restate your interest in the role, summarize why you fit, and ask about next steps."
+345,14,true_false,exercise,344,Ask about next steps.,,true,,,True. It shows initiative.
+346,14,select_blank,exercise,344,Restate your ___.,interest|salary|flaws,0,,,Close on enthusiasm.
+347,14,multiple_choice,exercise,344,Which is a good close?,Whatever|I'm excited|Bye,1,,,End positively.
+348,14,true_false,exercise,344,Close the interview without a word.,,false,,,False. Close deliberately.
+349,14,multiple_choice,exercise,344,Close: thank them ___.,Never|Coldly|Warmly,2,,,Courtesy leaves a good impression.
+350,14,select_blank,exercise,344,Ask about ___ steps.,next|first|last,0,,,Know what happens next.
+351,14,true_false,preview,352,A quick note keeps you memorable.,,true,,,True. Send a thank-you note.
+352,14,multiple_choice,main,,What is a thank-you note?,Bonus request|Follow-up email|Resignation,1,,,A short email sent after an interview to thank the interviewer and restate your interest. Send it within 24 hours.
+353,14,select_blank,exercise,352,Send it within ___ hours.,72|100|24,2,,,Within a day is best.
+354,14,true_false,exercise,352,Thank-you notes help candidates.,,true,,,True. They reinforce your interest.
+355,14,multiple_choice,exercise,352,A note should be ___.,Brief|Long|Funny,0,,,Keep it short and specific.
+356,14,true_false,exercise,352,Skipping the note is fine.,,false,,,False. It is a missed opportunity.
+357,14,multiple_choice,exercise,352,Thank-you note: mention a ___ detail.,Random|Specific|Private,1,,,Mention something from the conversation.
+358,14,select_blank,exercise,352,Thank them and restate ___.,doubt|pay|interest,2,,,End on enthusiasm.
+359,14,true_false,preview,360,Silence after interviews is common.,,true,,,True. Follow up politely.
+360,14,multiple_choice,main,,If you hear nothing?,Email politely|Call daily|Give up,0,,,"Wait about a week, then follow up politely by email to ask about the timeline."
+361,14,true_false,exercise,360,Calling daily is helpful.,,false,,,False. It annoys recruiters.
+362,14,select_blank,exercise,360,Wait about one ___.,year|week|hour,1,,,A week is a reasonable pause.
+363,14,multiple_choice,exercise,360,Follow up by ___.,Showing up|Social media|Email,2,,,Email is polite and traceable.
+364,14,true_false,exercise,360,Ask about the timeline.,,true,,,True. Be polite and brief.
+365,14,multiple_choice,exercise,360,Follow up ___.,Politely|Pushily|Angrily,0,,,Stay courteous.
+366,14,select_blank,exercise,360,Keep follow-ups ___.,long|short|daily,1,,,Brief messages respect time.
+367,15,true_false,preview,368,Pay comes up eventually.,,true,,,True. Prepare a range.
+368,15,multiple_choice,main,,What is a salary range?,One number|Bonus|Pay range,2,,,A salary range is the lowest to highest pay a company will offer for a role. Research market pay to know yours.
+369,15,true_false,exercise,368,Research market pay first.,,true,,,True. Use salary sites and peers.
+370,15,select_blank,exercise,368,Give a ___ not one number.,range|secret|guess,0,,,A range keeps you flexible.
+371,15,multiple_choice,exercise,368,Where to research?,Gossip|Salary sites|Guessing,1,,,Check several reliable sources.
+372,15,true_false,exercise,368,State your lowest number first.,,false,,,False. Do not anchor too low.
+373,15,multiple_choice,exercise,368,Your range should be ___.,Random|Fixed|Researched,2,,,Base it on market data.
+374,15,select_blank,exercise,368,Know the market ___.,rate|joke|view,0,,,Market data supports your ask.
+375,15,true_false,preview,376,Pay is more than a salary.,,true,,,True. Look at the whole package.
+376,15,multiple_choice,main,,What is total compensation?,Salary only|Whole package|Bonus only,1,,,"Total compensation is everything you earn from a job: salary plus bonuses, benefits and other perks."
+377,15,true_false,exercise,376,Benefits count as pay.,,true,,,True. They have real value.
+378,15,select_blank,exercise,376,Compare the whole ___.,desk|badge|package,2,,,Salary is only one part.
+379,15,multiple_choice,exercise,376,Which adds to compensation?,Health insurance|Parking ticket|Fine,0,,,Insurance is part of compensation.
+380,15,true_false,exercise,376,Only salary matters.,,false,,,False. Benefits can be worth thousands.
+381,15,multiple_choice,exercise,376,Include ___ in your comparison.,Rumours|Bonuses|Weather,1,,,Add up everything.
+382,15,select_blank,exercise,376,Total compensation includes ___.,gossip|rent|benefits,2,,,Perks and insurance count.
+383,15,true_false,preview,384,An offer can be negotiated.,,true,,,True. Ask politely.
+384,15,multiple_choice,main,,What is a counteroffer?,Your reply|A rejection|A resignation,0,,,A counteroffer is your response to a job offer in which you ask for different pay or terms. Be polite and specific.
+385,15,true_false,exercise,384,Most offers allow a counteroffer.,,true,,,True. Many employers expect it.
+386,15,select_blank,exercise,384,Be polite and ___.,vague|specific|angry,1,,,Name exactly what you want.
+387,15,multiple_choice,exercise,384,Support your ask with ___.,Threats|Complaints|Market data,2,,,Evidence is persuasive.
+388,15,true_false,exercise,384,Accept the first offer always.,,false,,,False. You may negotiate.
+389,15,multiple_choice,exercise,384,Express ___ in a counteroffer.,Gratitude|Anger|Doubt,0,,,Stay positive.
+390,15,select_blank,exercise,384,A ___ asks for better terms.,rejection|counteroffer|resume,1,,,It is your response.
+391,15,true_false,preview,392,Rejection is common.,,true,,,True. Handle it well.
+392,15,multiple_choice,main,,What should you do?,Argue|Disappear|Ask for feedback,2,,,"Thank them, ask for feedback and keep the relationship; a future role may fit."
+393,15,true_false,exercise,392,Keep the relationship.,,true,,,True. Future roles may open up.
+394,15,select_blank,exercise,392,Ask for ___.,feedback|revenge|money,0,,,Feedback helps you improve.
+395,15,multiple_choice,exercise,392,Reply to rejection ___.,Angrily|Graciously|Never,1,,,Professionalism leaves a good impression.
+396,15,true_false,exercise,392,Argue the decision.,,false,,,False. It burns bridges.
+397,15,multiple_choice,exercise,392,A rejection is ___.,Final|Personal|Learning,2,,,Use it to improve.
+398,15,select_blank,exercise,392,Keep in ___ with the recruiter.,touch|line|step,0,,,Stay in contact.
+399,16,true_false,preview,400,Employers may contact people who know you.,,true,,,True. They are references.
+400,16,multiple_choice,main,,What is a reference?,Your resume|Vouching person|Your salary,1,,,A reference is a person who can speak about your work and character to a possible employer. Ask permission first.
+401,16,true_false,exercise,400,Ask permission first.,,true,,,True. It is courteous and ensures a good reply.
+402,16,select_blank,exercise,400,Choose people who know your ___.,age|pets|work,2,,,They should speak about your performance.
+403,16,multiple_choice,exercise,400,Good references are ___.,Former managers|Strangers|Friends only,0,,,Managers know your work.
+404,16,true_false,exercise,400,List people without asking.,,false,,,False. Always get permission.
+405,16,multiple_choice,exercise,400,Brief your ___.,Rivals|References|Parents,1,,,Tell them about the role.
+406,16,select_blank,exercise,400,Keep references ___.,secret|random|updated,2,,,Share the job details.
+407,16,true_false,preview,408,Decisions should be made carefully and politely.,,true,,,True. Reply in writing.
+408,16,multiple_choice,main,,How should you accept?,In writing|By gossip|Never,0,,,"Accept in writing, confirm the key terms and start date, and thank them. If you decline, do it promptly and gracefully."
+409,16,true_false,exercise,408,Decline promptly.,,true,,,True. It respects their time.
+410,16,select_blank,exercise,408,Confirm the ___ date.,party|start|lunch,1,,,Make details clear.
+411,16,multiple_choice,exercise,408,"When you decline, be ___.",Rude|Silent|Gracious,2,,,You may want future contact.
+412,16,true_false,exercise,408,Ignore an offer you decline.,,false,,,False. Reply politely.
+413,16,multiple_choice,exercise,408,Accept ___ terms are clear.,After|Before|Never,0,,,Know what you accept.
+414,16,select_blank,exercise,408,Thank them and ___ gracefully.,argue|decline|ignore,1,,,Leave doors open.
+415,16,true_false,preview,416,Great follow-up ends the process well.,,true,,,True. Review the key ideas.
+416,16,multiple_choice,main,,Thank-you note timing?,After a month|Never|Within a day,2,,,Send it within a day.
+417,16,multiple_choice,exercise,416,Salary range means?,Pay range|One number|Bonus,0,,,A range of pay a company will offer.
+418,16,true_false,exercise,416,Total compensation includes benefits.,,true,,,True. It is salary plus perks.
+419,16,select_blank,exercise,416,A ___ requests better terms.,rejection|counteroffer|resume,1,,,It is your response.
+420,16,multiple_choice,exercise,416,Who vouches for you?,Recruiter|Rival|Reference,2,,,A reference speaks about your work.
+421,16,true_false,exercise,416,Ask permission before listing references.,,true,,,True. It is courteous.
+422,16,multiple_choice,exercise,416,After a rejection?,Ask feedback|Argue|Vanish,0,,,Learn and keep the relationship.
+423,16,match_pairs,exercise,416,"Match each term, round 1.",Thank-you note↔Follow-up email|Salary range↔Pay band|Total compensation↔Whole pay package|Counteroffer↔Your reply,,,,Each term goes with its short meaning.
+424,1,multiple_choice,exam,,A job description lists duties and:,Skills|Salaries|Benefits only,0,,,It also lists required qualifications.
+425,1,multiple_choice,exam,,"Before an interview, research the company's:",Menu|Mission|Parking,1,,,"Learn its products, customers and recent news too."
+426,1,multiple_choice,exam,,An interviewer's role can be found on their:,Business card|Desk|LinkedIn profile,2,,,Check the company site as well.
+427,1,true_false,exam,,You should avoid learning about your interviewers.,,false,,,Knowing their role helps you connect.
+428,2,multiple_choice,exam,,"In STAR, the R stands for:",Role|Result|Reason,1,,,"Situation, Task, Action, Result."
+429,16,multiple_choice,exam,,An achievement inventory is a list of your:,References|Weaknesses|Accomplishments,2,,,You match stories to what the job needs.
+430,2,multiple_choice,exam,,Which claim is stronger?,Saved 20%|Saved money|Worked hard,0,,,Numbers prove impact.
+431,3,multiple_choice,exam,,"The day before, confirm the time and:",Dress|Place|Salary,1,,,Plan your route and prepare documents.
+432,3,multiple_choice,exam,,Dress one level above the:,Receptionist|Interviewer's age|Dress code,2,,,Neat and comfortable beats flashy.
+433,3,multiple_choice,exam,,Arrive how early?,10-15 minutes|1 hour|Exactly on time,0,,,Be polite to everyone you meet.
+434,3,true_false,exam,,Receptionists' opinions never matter.,,false,,,They may share impressions with the interviewer.
+435,4,multiple_choice,exam,,A phone screen is usually a brief:,Test|Meeting|Call,2,,,It often checks basic fit with a recruiter.
+436,4,multiple_choice,exam,,"On video, the camera belongs at:",Eye level|Floor level|Above you,0,,,Use good lighting and a tidy background.
+437,4,multiple_choice,exam,,"On video, look at the:",Notes|Camera|Screen corner,1,,,That looks like eye contact.
+438,5,multiple_choice,exam,,A behavioral question asks for a past:,Opinion|Guess|Example,2,,,"For instance, tell me about a time you led a team."
+439,5,multiple_choice,exam,,A situational question describes a:,Hypothetical|Past event|Salary,0,,,You explain what you would do.
+440,5,multiple_choice,exam,,Aim for answers of about:,Ten minutes|Two minutes|Ten seconds,1,,,Lead with the result.
+441,6,multiple_choice,exam,,A panel interview has several:,Candidates|Rounds|Interviewers,2,,,"Address everyone, not only one person."
+442,6,multiple_choice,exam,,"In a technical interview, think:",Aloud|Silently|Quickly,0,,,Explain your reasoning as you work.
+443,6,multiple_choice,exam,,A case interview is a business:,Survey|Puzzle|Contract,1,,,You solve it out loud.
+444,7,multiple_choice,exam,,"A good self-introduction follows present, past and:",Salary|Hobbies|Future,2,,,"What you do now, how you got there, what you want next."
+445,7,multiple_choice,exam,,"In your introduction, leave out:",Personal details|Skills|Experience,0,,,Keep it relevant to the job.
+446,8,multiple_choice,exam,,Choose strengths that are:,Rare|Relevant|Famous,1,,,Prove each with a short example.
+447,8,multiple_choice,exam,,A good weakness answer is real and:,Hidden|Essential|Improving,2,,,Explain how you are working on it.
+448,8,true_false,exam,,"""I'm a perfectionist"" is a strong weakness answer.",,false,,,It sounds evasive.
+449,9,multiple_choice,exam,,A leaving answer should focus on what you:,Regret|Seek|Dislike,1,,,Avoid complaints about past employers.
+450,9,multiple_choice,exam,,Culture fit means matching:,Salaries|Titles|Values,2,,,Your working style should suit the team too.
+451,10,multiple_choice,exam,,Explain an employment gap:,Honestly|Never|Humorously,0,,,Keep it brief and focus on skills gained.
+452,10,multiple_choice,exam,,"In a failure story, stress the:",Excuse|Lesson|Blame,1,,,Own the mistake and say what you changed.
+453,10,multiple_choice,exam,,Describe a conflict in a:,Heated way|Vague way|Calm way,2,,,"Be factual, then explain the resolution."
+454,10,multiple_choice,exam,,An elevator pitch is a short:,Summary|Offer|Contract,0,,,It says who you are in a few sentences.
+455,11,multiple_choice,exam,,A good handshake is firm and:,Limp|Brief|Long,1,,,Smile and keep steady eye contact.
+456,11,multiple_choice,exam,,"Instead of filler words, you should:",Repeat|Speed up|Pause,2,,,Speak at a steady pace.
+457,11,true_false,exam,,Active listening means waiting silently for your turn.,,false,,,It means giving full attention and showing you understand.
+458,12,multiple_choice,exam,,A mock interview is a:,Job offer|Practice run|Final round,1,,,"Use a friend, coach or recording."
+459,12,multiple_choice,exam,,"If your mind goes blank, first:",Apologise|Leave|Breathe,2,,,Ask for the question to be repeated if needed.
+460,12,multiple_choice,exam,,Being late is a common:,Mistake|Strategy|Requirement,0,,,Speaking badly of employers is another.
+461,13,multiple_choice,exam,,Asking questions shows:,Weakness|Interest|Doubt,1,,,It also lets you check whether the job fits.
+462,13,multiple_choice,exam,,A good question asks about day-to-day:,Gossip|Holidays|Work,2,,,Success in the first year is another good topic.
+463,13,multiple_choice,exam,,Salary talk is best:,Delayed|Opened first|Skipped,0,,,Raise pay details too soon and it can backfire.
+464,14,multiple_choice,exam,,"To close, restate your:",Doubts|Interest|Salary,1,,,Summarize why you fit and ask about next steps.
+465,14,multiple_choice,exam,,A thank-you note is a short:,Report|Contract|Email,2,,,Send it within a day.
+466,14,multiple_choice,exam,,"After a week of silence, follow up:",Politely|Daily|Never,0,,,Ask about the timeline by email.
+467,15,multiple_choice,exam,,A salary range is the lowest to highest:,Benefits|Pay|Hours,1,,,Research market pay to know yours.
+468,15,multiple_choice,exam,,Total compensation is salary plus:,Debts|Tips only|Benefits,2,,,Bonuses and other perks count too.
+469,16,multiple_choice,exam,,A counteroffer is your:,Response|Resignation|Reference,0,,,You ask for different pay or terms.
+470,15,multiple_choice,exam,,"After a rejection, ask for:",A refund|Feedback|Revenge,1,,,Keep the relationship; a future role may fit.
+471,16,multiple_choice,exam,,A reference can speak about your work and:,Salary|Age|Character,2,,,Ask permission first.
+472,16,multiple_choice,exam,,Accept an offer:,In writing|Verbally only|Anonymously,0,,,Confirm the key terms and start date.
+473,16,true_false,exam,,A thank-you note can wait a month.,,false,,,Send it within a day.

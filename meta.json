@@ -1,0 +1,41 @@
+{
+  "id": "6c1d9f3a2e84",
+  "title": "Job Interview Skills",
+  "description": "How to act in a job interview from first handshake to follow-up: research, your stories, common and tough questions, phone and video interviews, body language, questions to ask, salary and offers.",
+  "image": "cover.png",
+  "file": "job-interview-skills.zip",
+  "version": "1.0.0",
+  "tags": [
+    "interview",
+    "career",
+    "jobs",
+    "communication",
+    "soft-skills",
+    "beginner"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-02",
+      "notes": "Initial release - 16 decks, 52 packs, 423 cards."
+    }
+  ],
+  "toc": [
+    "Know the Role and Company",
+    "Prepare Your Stories",
+    "Logistics and First Impressions",
+    "Phone and Video Interviews",
+    "Behavioral and Situational Questions",
+    "Panel, Technical and Case Interviews",
+    "Tell Me About Yourself",
+    "Strengths and Weaknesses",
+    "Why This Job?",
+    "Tough Questions",
+    "Body Language and Voice",
+    "Handling Nerves",
+    "Questions to Ask",
+    "Closing and Follow-up",
+    "Salary, Offers and Negotiation",
+    "References and Next Steps"
+  ]
+}
